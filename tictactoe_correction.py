@@ -157,8 +157,7 @@ def check_winner(game_state):
   return winner
 
 
-
-if __name__ == "__main__":
+    if __name__ == "__main__":
   size = int(input("Board size ? "))
   game_state = [ [0 for j in range(size)] for i in range(size) ] 
   draw_board(game_state)
